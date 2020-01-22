@@ -95,8 +95,47 @@ Class diagrams          - UML BOOK FOR DIAGRAMS
 Activity diagrams
 
 software process - very important will be on test two
+put group number then submit the file
+each person will have their tasks. (each person creates part of the system)
+each person will submit things that go to this assignment
+- a set of use cases and descriptions of the use cases
+- break downs for them as well.
+- they will be submitted in PDF form
+- Conceptual class diagrams of the classes that define the systems structure.
+- Due feb 10th at 11 pm
 
+The essence of practice
+Polya suggests
+- Understand the problem
+-- who has a stake in the solution to the problem?
+-- what are the unknowns? what computer am i gonna run it on for example
+-- can it be compartmentalized?
+-- can the problem be represented graphically?
 
+- Plan the solution
+-- what part of the process? DESIGN
+-- Have you seen problems like this before? Can you reuse anything?
+-- Has a similar problem been solved before?
+-- Can subproblems be defined?
+-- Can you represent a solution in a manner..?
+
+- Cary out the plan
+-- Implementation
+-- Does it conform to the plans?
+-- Is each component part of the solution provably correct?
+--
+- Examine result for accuracy
+-- Is it possible to tst each component part of the solution
+-- Does the solution produce results that conform to the data, functions, and features that are required?
+
+General principles
+- The reason it all exists
+- Keep it simple
+- Maintain the vision
+- What you produce, others will consume
+- Be open to the future
+- Plan ahead for reuse
+- Think
 
 
 
