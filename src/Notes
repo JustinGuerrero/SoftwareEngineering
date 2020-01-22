@@ -137,6 +137,18 @@ General principles
 - Plan ahead for reuse
 - Think
 
+Software requirements
+- Something that tells us what the system has to do
+- What features the system has to deliver
+
+How to document these?
+- Natural language
+- Formal language (UML) to avoid ambiguity
+
+Requirements Engineering
+- The process of establishing the needs of the stakeholder that are solved
+-
+
 
 
 
