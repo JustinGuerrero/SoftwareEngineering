@@ -13,3 +13,110 @@ it's okay to upload code to stack overflow just no copying prewritten code from 
 group projects are 50% of our grade
 2 exams 30%
 final - 2 hours, cumulative, 20% of our grade
+
+Day Two
+
+Mateo is our TA
+Four requirements for UML diagrams for project
+1) conceptual class diagrams
+2) Use case diagrams
+3) Activity
+
+review these in the UML book and get familiar with them.
+
+Design requirements
+1) DETAILED class diagrams
+ - Cover the design patterns we are using for implementation
+2) Sequence diagrams
+
+requirements vs desires
+
+Required - Interface, GUI is not required, but it must have a user interface.
+If you want to generate code from a UML tool, great.
+Altova is a great tool, has free 30 day trial.
+
+
+Overall accountability for the project.
+Example - Submarine that couldn't go to sea because problems with software.
+- blue ribbon committee, and obviously admiral was livid because he couldn't send ships out
+
+Sponsor is very important as well. They are the ones paying you so be sure to meet their needs entirely.
+What is the difference between hardware and software?
+- Things you can touch, and things you can't.
+- primary responsibility.
+- DEF'NS SOFTWARE is developed or engineered. It is not manufactured in the classical sense.
+- It doesn't wear out.
+
+
+There are several broad types of software
+- system software such as an OS
+- Application software such as an applications on computer and phone
+- Engineering and scientific software such as Matlab, modeling and analysis.
+- Embedded software such as pieces on the mars rovers, software put in to run hardware
+- Product line software such as microsoft office
+- Web/Mobile applications such as applications run on web and mobile devices
+- AI software with game play/robotics etc. such as games and neural networks
+
+Legacy software
+- You will not be the only person that writes software that gets deployed. basically it's software
+that continues to live through generation and generation of coders.
+- Adapted to meet te needs of new computing
+- Must be enhanced to implement new business requirements
+- Software must be extended to make it interoperable with new systems and databases
+- Software must be re-architected to make it viable within a network environment
+
+Software Engineering produces
+- Quality software
+- Efficient
+- Maintainable
+
+
+DAY THREE
+
+Full requirements and design for requirements.
+Partial implementation
+- data file for implementation is posted on brightspace
+Testing of partial implementation
+
+If we only do mary anns requirements is a C in the class. Go above and beyond
+See course information system on D2L
+Interview each other to see what we want out of our project. Requirements etc
+-- maybe we can do the major chart, and have the blocks that show the class dim out once you've completed them.
+-- passwords, login, changes, etc. the datafile given is where we should focus on.
+We have to prove to the sponsor that our shit is legit
+
+Stakeholders
+Internal  - Boss - Team - Management - Sponsor
+Externam  - Customer - government policy provider - shareholder - grant organization
+
+DAY FOUR
+Use case diagrams
+Class diagrams          - UML BOOK FOR DIAGRAMS
+Activity diagrams
+
+software process - very important will be on test two
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
