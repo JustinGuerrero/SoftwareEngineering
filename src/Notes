@@ -149,11 +149,50 @@ Requirements Engineering
 - The process of establishing the needs of the stakeholder that are solved
 -
 
+Requirement engineering
+- a set of activities
+- concerned with identifying and communicating
+- designers need to know how it's going to be used
+- the bridge between real world needs and other constituencies affected by a software system
+-- and the capabilities
+- Inception: what is it that you're trying to build
+- Elicitation: when you get the requirements from your stakeholders
+- Elaboration: create an analysis model that identifies data, function and behavioral requirements
+- Negotiation: agree on a deliverable system that is realistic for developers and customers
+- Specification: documents, models, math, use cases, prototype
+- Validation: errors in context, areas where clarification is, missing info, inconsistencies
+- Requirements management
 
+Eliciting Requirements
+- Meetings
+- Rules
+- Agendas
+- Facilitator
+- Definition mechanism
+- Goal: Identify problem, propose elements of solution, negotiate approace, specify a preliminary solution
 
+Two types of requirements:
+-Functional
+-- Defines required behavior of the system between outputs and inputs
+-- Describes how a product must behave, what its features and function
+- Non functional
+-- Quality attributes, performance attributes
 
+Good requirements
+- Unambiguous
+- Testable
+- Clear
+- Correct
+- Understandable
+- Feasible
+- Independent
+- Atomic
+- Necessary
+- Implementation free
 
+We are only doing functional requirements ***********
 
+FQT - formal qualification testing
 
 
 
