@@ -252,7 +252,7 @@
 ***** Registration optimization
       + What is your ideal layout?
 ***** Should we integrate/optimize the functionality of CatCouse/DegreeWorks?
-**** Requirements
+**** Question Priority
 ***** Necessary
       + How long is this to be in use?
       + Transfer credit database
@@ -264,7 +264,14 @@
 ***** Nice to Have
       + How many semesters ahead should be shown? Timeline?
       + Pros and cons of current systems
-***** Unnecessary
+      + Security vs Convenience
+      + Level of integration between registration, graduation track
+        and scheduling.
+***** Last Priority
+      + Should different paths between majors be explicitly separated?
+      + Ideal registration layout
+	- Ask about after we have designed a few examples to get her
+          opinion on preferred style/function. 
 * Systems Administration
 ** 16-1-20
    + End users often are uncomfortable talking to a SysAdmin and often worry
