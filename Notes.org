@@ -251,7 +251,7 @@
       + Will other campuses be using it also, or just MSU Bozeman?
 ***** Registration optimization
       + What is your ideal layout?
-***** Should we integrate/optimize the functionality of CatCouse/DegreeWorks?
+***** Should we integrate/optimize the functionality of CatCourse/DegreeWorks?
 **** Question Priority
 ***** Necessary
       + How long is this to be in use?
@@ -296,13 +296,25 @@
        often translates to starting over.
      + Has the perks of being more bulletproof, is userful for
        software design with low tolerance for mistakes/compromise. 
-**** Potential Project Requirements
+**** Potential Project Requirements/Desires
      + Professor can get course emails.
      + Students can use the system to determine all core classes for
        the semester.
      + Students can use the system for generating a campus map of
        their classes for the semester.
-     + 
+     + Wants information to be derived from current semester's roll.
+     + Wants easier way to see amount of seats in each section.
+     + Wants to see all CS classes not just CSCI.
+     + Needs a mobile version!
+     + Easily available book info
+     + Should be intended just for MSU Bozeman, but should plan for
+       ease of extensibility to other MSU campuses, or even other
+       universities entirely.
+     + Would be nice to have links to professor/faculty webpages in
+       order to have easy access to contact info and office hours.
+     + All users should be able to log in with NetID and password in
+       order to have access to their relevant information, e.g. class
+       roster, graduation track, etc.
 * Systems Administration
 ** 16-1-20
    + End users often are uncomfortable talking to a SysAdmin and often worry
