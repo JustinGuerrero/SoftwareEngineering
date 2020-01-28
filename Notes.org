@@ -125,7 +125,7 @@
          or more of these uses. Submit in a pdf.
        - Class diagrams
        - Activity diagrams
-**** TODO Come up with interview questions based on requirements. Interview on Monday.
+**** DONE Come up with interview questions based on requirements. Interview on Monday.
 *** Essence of Practice
 **** Polya Suggests
 ***** Understand the problem
@@ -367,6 +367,8 @@
 **** MAN pages
      + Know the different sections of the man pages, this will be on
        the exam.
+** 28-1-20
+**** 
 * Programming Languages
 ** 17-1-20
 *** DONE Read chapters 1 and 2
@@ -403,7 +405,7 @@
        - 
 **** Writability
 ** 24-1-20
-*** IN-PROGRESS Fortran Assignment
+*** DONE Fortran Assignment
     DEADLINE: <2020-02-07 Fri 17:00>
 * German
 ** 20-1-20
@@ -413,5 +415,5 @@
     DEADLINE: <2020-01-22 Wed 23:59>
 *** DONE Quiz on Friday
     SCHEDULED: <2020-01-24 Fri 09:00>
-*** IN-PROGRESS Homework 4.2
+*** DONE Homework 4.2
     DEADLINE: <2020-01-27 Mon 23:59>
