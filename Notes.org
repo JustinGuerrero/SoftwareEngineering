@@ -315,6 +315,51 @@
      + All users should be able to log in with NetID and password in
        order to have access to their relevant information, e.g. class
        roster, graduation track, etc.
+** 29-1-20
+*** Agile Modeling Principles
+    + Primary goal is to build software not create models
+    + Don't create more than you need
+    + Strive to produce the simplest model
+    + Try to build useful models, don't have to be perfect
+*** Requirements Modeling
+    + Information domain must be understood
+    + Function that software performs must be defined
+    + Behaviour must be represented
+    + Model must describe behaviour in a hierarchical fashion
+*** What is UML?
+    + Unified Modeling Language
+    + Modeling a system independent of implementation
+    + Graphical language for modeling software intensive systems
+    + Standard way to cover conceptual ideas
+*** Use Case Diagrams
+    + Focuses on behaviour as seen from outside users
+**** TODO Read UML 2.0 textbook
+**** Use Case Diagram Elements
+     + Actors :: Role played by external entity (human or otherwise),
+                 can't influence or change design
+     + System Boundary :: Line that separates system from actors
+     + Use Case :: Sequence of actions that a system performs, clear
+                   pass/fail criteria, measurable result.
+     + Dr. Cummings suggests limiting requirements in use case
+       diagram, try to be more general. 
+**** Use Case Questions
+     + Who is the primary actor?
+     + What are the actor's goals?
+     + What preconditions need to exist for the use case to happen?
+       + What are the main tasks to be performed by the actor?
+**** Use Case Descriptions
+     - Include:
+       + Use Case
+       + Brief Description
+       + Related Requirements
+       + Preconditions
+       + Successful end conditon
+       + Unsuccessful end condition
+       + Actors
+       + Trigger
+       + Basic flow of events
+       + Alternative flow, if applicable
+       + Exception flow, if applicable
 * Systems Administration
 ** 16-1-20
    + End users often are uncomfortable talking to a SysAdmin and often worry
