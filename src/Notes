@@ -194,14 +194,45 @@ We are only doing functional requirements ***********
 
 FQT - formal qualification testing
 
+JAN 27 2020
+A bad requirement might be that the email notification for an app must include the relevant info
+relevnt is not very specific. A good way to fix this could be
+The email notification shall include, dollar amount, date, payee name, and id number
 
 
 
+Interview questions and answers
+Mary Anns pre interview things
+The registrar using the curriculum.... can be done out the system
+things to be seen as an advisor - an advisor can see what a student signed up for
+the advisor can sign add drop form in system
+an advisor can see what students have dropped
+as a professor (instructor) can get the set of email addresses for each section or by course offering
+students may use the system to determine core classes that are offered for each semester
+students may use the system to get a map for going to class to class according to their scheudle
 
-
-
-
-
+favorite and least favorite features of myinfo
+- would love to see all the CS classes being offered THIS SEMESTER. - hates having to navigate in random places
+- not favorite thing to have to search for CRN - prefer to click class and sees CRN
+- able to see what's offered and when such as even years, every semester etc.
+- one course may have multiple course offerings
+- would like to get information from degree works, the pop up write up to catalog, but don't prohibit being able to tie
+degree works to it in the future
+- layout change, going to happen wants information when I want it. Could be both. stick with some and stick with others.
+no need for employee services or personal information etc.
+- net id login
+- see who's on a wait list, would be great to see!
+  - would love to see how many seats are available in a room. list of seats in the classrooms
+  - Student road map that checks off which classes they've taken
+  - course pre req and if it's a pre req for other classes
+  - if a student has taken a number of courses close to obtaining a minor throw a notification
+  - being able to determine how many seats we can have in that room
+  - mobile version?
+  - should this be for MSU but don't prohibit make sure it's extendable.
+  - type in search bar for class name ie "csci 112"
+  - student login tied to netid password
+  - what you considered necessary and unnecessary put in report***
+  - no need for two factor authentication
 
 
 
