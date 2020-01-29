@@ -40,5 +40,7 @@
   + Two factor authentication option
   + Potential for registrar to upload future semester information
   + Link to professor webpage for easy access to office hours, contact
-    info, etc. 
+    info, etc.
+  + Potential better automation of handling transfer credits; reduce
+    the need for manual human intervention.
 
