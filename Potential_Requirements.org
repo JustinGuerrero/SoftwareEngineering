@@ -1,3 +1,44 @@
+* Todos
+** TODO Ask if system should be for all majors or just CS
 * Necessary
+  + One course may have multiple offerings
+  + A course offering may have multiple sections
+  + Students may use the system to add/drop for a certain amount of
+    time after registration
+  + Students may use the system te determine required classes for
+    their major/minor
+  + Students may use the system to determine where and when a course
+    is scheduled
+  + Students may use the system to determine who is teaching a course offering
+  + Professors may use the system to receive the number of students in
+    each section and course offering
+  + System shall be standalone, no integration with existing systems.
+  + System shall be integrated with registrar's data entry system.
+  + Should show all current semester classes
+    - Should have CRN, description, time, location, credits,
+      instructor, sections, prereq/coreq, actual number of seats in
+      room, numer of students currently enrolled. 
+  + System should show all courses in major, e.g. CS, CSCI, ESOF
+  + System should be organized in a major/minor path style.
+  + Option to view classes in list organized by major or by semester
+  + System shall be MSU-Bozeman specific
+  + Strong integration between registration, gradution track, and
+    scheduling.
+  + Strong, personalized sort functionality.
+  + System shall be strongly integrated with each student's school
+    records, for the sake of class options, minor track, etc.
+  + Show how long class has been full and how long waitlist is.
+  + Show list of student emails, with option to sort by course,
+    section, etc.
+  + Mobile verison.
+  + Search bar
 * Nice to Have
-* Last Priority
+  + System should have the capability to import data from existing
+    systems.
+  + System should be open for extensibility to other
+    campuses/universities
+  + Two factor authentication option
+  + Potential for registrar to upload future semester information
+  + Link to professor webpage for easy access to office hours, contact
+    info, etc. 
+
