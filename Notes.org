@@ -368,7 +368,10 @@
      + Know the different sections of the man pages, this will be on
        the exam.
 ** 28-1-20
-**** 
+**** DONE Homework 1, User Accounts
+**** Passwords
+     + Avoid using a text editor to edit text files, can result in
+       syntax errors or multiple users editing a file.
 * Programming Languages
 ** 17-1-20
 *** DONE Read chapters 1 and 2
@@ -407,6 +410,66 @@
 ** 24-1-20
 *** DONE Fortran Assignment
     DEADLINE: <2020-02-07 Fri 17:00>
+** 29-1-20
+*** Plankalkul
+    + First programming language
+    + Designed in 1945, not published until 1972.
+    + Never implemented
+    + Advanced data structures :: Floating points, arrays, records
+**** Syntanx
+       | A + 1 = > A
+     V | 4         5
+     S | 
+*** Pseudocodes
+    + Minimal programming languages used to get around the painful
+      process of programming in machine code.
+**** Short Code
+     + Univac
+**** Speedcoding 
+     + IBM 701
+     + Pseudo ops for math functions
+     + Conditional and unconditional branching
+     + Auto-increment registers for array accesses
+     + Slow!
+     + Only 700 words left for user program
+*** IBM 704 and Fortran
+**** Fortran I
+     + Regarded as one of the first high level programming languages
+     + Compiler released in April 1957 after 18 worker-years of effort
+     + No need for dynamic storage
+     + Need good array handling and counting loops
+     + DO loop
+     + Formatted I/O
+     + Programs larger than 400 lines rarely compiled correctly, mainly
+       due to poor reliability of IBM 704
+     + Code was very fast
+     + Quickly became very widely used
+*** LISP
+    + All in Lambda Calculus
+    + Made for AI study
+    + Pioneered functional programming :: No need for variables or assignment
+    + Still used for AI
+    + Common Lisp and Scheme are contemporary dialects of Lisp
+    + ML, Haskell, and F# are also functional programming languages,
+      but use very different syntax. 
+*** COBOL
+    + First language for business and not engineering
+    + Designed to be read like a natural language
+    + First language required by DoD, would likely have failed without DoD
+*** Basic
+    + Easy to learn ans use for non-science students
+    + Must be "pleasant and friendly"
+    + Fast turnaround for homework
+    + Free and private access
+    + *User time is more important that computer time*
+    + Current popular dialect :: Visual Basic
+    + First widely used language with time sharing
+*** Pascal
+    + First designed for teaching structured programming
+    + Small, simple, nothing new
+    + Largest impact was on teaching programming :: From mid 70's to
+      late 90's was the most widely used programming
+      language for teaching programming
 * German
 ** 20-1-20
 *** DONE Look in to buying textbook for German class
@@ -417,3 +480,6 @@
     SCHEDULED: <2020-01-24 Fri 09:00>
 *** DONE Homework 4.2
     DEADLINE: <2020-01-27 Mon 23:59>
+** 29-1-20
+*** TODO Homework
+    DEADLINE: <2020-02-03 Mon 23:59>
