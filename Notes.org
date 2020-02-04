@@ -1,5 +1,5 @@
 * Software Engineering
-** 15-1-20
+** 15-01-20
 *** UML Diagrams for projects
 **** Requirements
      + Conceptual class 
@@ -65,8 +65,8 @@
 ****** Internal
        + Boss
        + Team
-	 - Tester
-	 - Dev
+      	 - Tester
+      	 - Dev
        + Management
        + Sponsor
 ****** External
@@ -139,7 +139,7 @@
       + Has a similar problem been solved?
       + Can subproblems be defined?
       + Can you represent a solution in a manner that can actually be
-        implemented? 
+        implemented?
 ***** Implementation
       + Does the solution conform to the plan?
       + In each component of the solution provably correct?
@@ -159,10 +159,10 @@
 *** Software Myths
     + Affect managers, customers, and practitioners.
     + Often have elements of truth, which can make the easiliy
-      believable. 
+      believable.
     + Lead to bad decisions.
     + *Therefore*, insist on reality as you navigate through software
-      engineering. 
+      engineering.
 *** Understanding Requirements
     + Tell us what the system has to do, features to be delivered.
 **** Requirements Engineering
@@ -175,12 +175,11 @@
 *** Requirements Engineering
 **** Definition
      + Set of activities concerned with identifying and communicating
-       the purpose of a software intensive system, and the context in
-       which it will be used.
+       the purpose of a software intensive system, and the context in which it
+       will be used.
      + Acts as the bridge between the real world needs of users,
-       customers, and others affected by a software system and the
-       capabilities and opprtunities afforded by software intensive
-       technologies.
+       customers, and others affected by a software system and the capabilities
+       and opprtunities afforded by software intensive technologies.
 **** Error Correction
      + Becomes exponentially more expensive as the life of the project
        continues. i.e., *figure out requirements early*.
@@ -219,7 +218,7 @@
       + Required behaviour of system between inputs and outputs
 ***** Non-functional
       + Required behaviour of the users of the system rather than the
-        system itself. 
+        system itself.
 ***** Characteristics of good requirements
       + Unambiguous
       + Testable
@@ -234,7 +233,7 @@
 ***** TODO Only functional requirements are required for assignment
 **** FQT
      + Formal Quality Testing, testing team, making sure software is
-       bulletproof. Or as bulletproof as possible. Bugtesting. 
+       bulletproof. Or as bulletproof as possible. Bugtesting.
 ** 27-1-20
 *** Group Project Meeting
 **** Interview Questions
@@ -258,19 +257,18 @@
       + Transfer credit database
       + Portability
       + Integrate with or replace current systems?
-	- Dislikes searching for CRNs
-	- Dislikes separated nature of current system.
-	- Likes seeing mulitple sections.
-	- System should be mostly standalone, should replace the
-          disjointed nature of our current system, but also shouldn't
-          prohibit the transfer of data between our system and current
-          systems. 
+      	- Dislikes searching for CRNs
+      	- Dislikes separated nature of current system.
+      	- Likes seeing mulitple sections.
+      	- System should be mostly standalone, should replace the
+          disjointed nature of our current system, but also shouldn't prohibit
+          the transfer of data between our system and current systems.
       + Are any of your requirements unnecessary?
       + How much should administration have to change about their
         current methods?
-	- Administration (Registrar) will import their data from their
-          own program, so they will not have to worry about learning
-          our new software. 
+      	- Administration (Registrar) will import their data from their
+          own program, so they will not have to worry about learning our new
+          software.
 ***** Nice to Have
       + How many semesters ahead should be shown? Timeline?
       + Pros and cons of current systems
@@ -280,22 +278,22 @@
 ***** Last Priority
       + Should different paths between majors be explicitly separated?
       + Ideal registration layout
-	- Ask about after we have designed a few examples to get her
-          opinion on preferred style/function. 
+      	- Ask about after we have designed a few examples to get her
+          opinion on preferred style/function.
 **** NOTE: 
      + The registrar can set up the course curriculum from outside our contracted system.
 *** Class
 **** Requirement Examples
 ***** Bad Examples
       + Email notification must include the relevant info.
-	- What is "relevant info"?
-	- Good: The email notification must include dollar amount,
-          date, and ID number. 
+      	- What is "relevant info"?
+      	- Good: The email notification must include dollar amount,
+          date, and ID number.
 **** The Waterfall Model
      + Has problems because it is completely linear, so going back
        often translates to starting over.
      + Has the perks of being more bulletproof, is userful for
-       software design with low tolerance for mistakes/compromise. 
+       software design with low tolerance for mistakes/compromise.
 **** Potential Project Requirements/Desires
      + Professor can get course emails.
      + Students can use the system to determine all core classes for
@@ -308,14 +306,14 @@
      + Needs a mobile version!
      + Easily available book info
      + Should be intended just for MSU Bozeman, but should plan for
-       ease of extensibility to other MSU campuses, or even other
-       universities entirely.
+       ease of extensibility to other MSU campuses, or even other universities
+       entirely.
      + Would be nice to have links to professor/faculty webpages in
        order to have easy access to contact info and office hours.
      + All users should be able to log in with NetID and password in
-       order to have access to their relevant information, e.g. class
-       roster, graduation track, etc.
-** 29-1-20
+       order to have access to their relevant information, e.g. class roster,
+       graduation track, etc.
+** 29-01-20
 *** Agile Modeling Principles
     + Primary goal is to build software not create models
     + Don't create more than you need
@@ -341,7 +339,7 @@
      + Use Case :: Sequence of actions that a system performs, clear
                    pass/fail criteria, measurable result.
      + Dr. Cummings suggests limiting requirements in use case
-       diagram, try to be more general. 
+       diagram, try to be more general.
 **** Use Case Questions
      + Who is the primary actor?
      + What are the actor's goals?
@@ -360,8 +358,41 @@
        + Basic flow of events
        + Alternative flow, if applicable
        + Exception flow, if applicable
+** 03-02-20
+*** TODO Read paragraph on page 30 of UML book, How many use cases should your model have?
+*** Intro
+    + Created a requirements spec for the library information system.
+      - Put in examples folder on D2L
+*** Object Oriented Development
+    + Class :: template or blueprint for which to define an object
+    + Object :: instance of a class, includes data (attributes, the
+                state), and operations (methods) that operate on the object.
+    + Why develop this way?
+      - Enforces good design
+      - Easier to change
+      - Inceases reuse
+      - Increases understandability because we model real world
+        entities. 
+    + Data over function
+    + Information hiding
+    + Encapsulation
+    + Inheritance
+*** Object Oriented Requirements Analysis
+    + Underline nouns -> classes
+    + Example :: Users can add more than one item on sale at a time to
+                 a shopping cart.
+    + Classes :: Item, Cart, User
+*** Class Diagrams
+    + A concept can be represented by a single UML class, or a set of
+      UML classes.
+*** Static vs Nonstatic
+    + Nonstatic attributes and operations :: All objects of the class
+         get their own copy, limited to the life of the object
+    + Static attributes and operations :: All objects of the class
+         share a common copy, not limited to the life of any one
+         object. 
 * Systems Administration
-** 16-1-20
+** 16-01-20
    + End users often are uncomfortable talking to a SysAdmin and often worry
      about being perceived as stupid or negligent.
    + End users often have misinformation or a bad understanding on how
@@ -373,8 +404,8 @@
    + Make sure to follow through to completion in a timely fashion.
    + Follow up to ensure the solution has continued to work.
    + Recognize when you need to created documentation for yourself/others. Use
-     FAQs and provide users with as much documentation as they are
-     comfortable with.
+     FAQs and provide users with as much documentation as they are comfortable
+     with.
    + Try to track problems and recognize trends with users, software, and
      hardware.
    + End users often don't formulate questions well
@@ -399,10 +430,10 @@
      + Following a command with "&" launches it in the background and
        returns to the shell entry.
      + "fg" and "bg" allows to switch between foreground and
-       background processes. 
+       background processes.
 **** TMUX
      + Terminal multiplexer to use multiple shells in one instance of
-       a terminal emulator. 
+       a terminal emulator.
 **** Your ENVironment
      + "env" prints a list of environment variables.
      + To update or create an environment variable use the export
@@ -417,8 +448,147 @@
 **** Passwords
      + Avoid using a text editor to edit text files, can result in
        syntax errors or multiple users editing a file.
+** 30-01-20...
+*** RAID
+    + Redundant Array of Independent Disks
+    + Hardware based :: All disks controlled by physical RAID controller
+    + Software based :: All disks controlled by software
+    + RAID 0 :: No redundancy, but stripes data
+    + RAID 1 :: Mirrors data across disks
+    + RAID 5 :: N-1 (parity)
+    + RAID 6 :: N-2 (redundant parity)
+    + RAID 10 :: Combination of 0 and 1
+    + ZRAID :: ZFS filesystem based
+*** Partitioning Schemes
+**** MBR aka MSDOS style
+     + <= 2TB
+     + 4 primary
+     + 3 primary, 1 extended (container for logicals)
+**** GPT
+     + <=> 2TB
+     + 128 partitions
+     + Newer OSes with UEFI support
+*** Filesystems
+    + ext2
+    + ext3 (journaled)
+    + ext4 (extents)
+    + Swap
+    + Others: xfs, reiser3, ntfs, vfat, exfat, iso9660, ufs, xfs, btrfs,
+      unionfs, etc
+    + Network based: NFS, SMB, etc
+*** Tools
+**** Partitioning
+***** CLI
+      + fdisk, parted, cfdisk, gdisk
+***** GUI
+      + gparted, gnome-disk-utility
+**** Formatting
+     + mkfs.{fstype}, mkswap
+**** Utilities
+     + mount, umount, dban, partclone, clonezilla, fog, dd, etc
+       - dban :: Derek's Boot And Nuke, used for date removal
+       - dd :: Used to clone a disk without altering existing data
+*** Configuration
+    + /etc/fstab :: Shows which partitions are to be mounted where on boot
+      - Generated with *genfstab* in Arch
+      - Types of references
+	+ Device :: /dev/sda1
+	+ Label :: LABEL="ROOT"
+	+ UUID :: UUID= /insert UUID here/
+	   - *blkid* command
+*** Removable Media
+    + Long Term
+      - /mnt/somedir :: Add to /etc/fstab
+    + Short Term
+      - /run/media/username/devicelabel :: Automated by GUIs
+*** Everything is a file
+    + Unix makes everything a file
+      - Processes :: /proc/###
+      - Devices :: Block or character, major and minor numbers
+	+ /dev/sda and /dev/sda1
+	+ The two main types of device are block and character
+*** Linux Hierarchy
+    + / (different than /root)
+    + /bin :: rudimentary binaries
+    + /boot :: kernel, driver disk images, bootloader config
+    + /dev :: character, block, major/minor
+    + /etc :: global configuration
+    + /home :: user dirs/files
+    + /lib :: rudimentary libraries and firmware
+    + /lost+found :: where damaged files go after fsck
+    + /media :: where removable media is often found
+    + /mnt :: 
+    + /opt :: third party software
+    + /proc :: used by kernel to keep track of processes, number of dir is PID
+    + /sys :: companion of /proc
+    + /sbin :: superuser binaries
+    + /srv :: places for services to store data
+    + /tmp :: place for programs that need temporary storage
+** 04-02-20
+*** Unix Philosophy
+    + Make programs do one thing only, and do it well.
+*** Man Page Review
+    + Be aware of various sections (man man) and the -k apropos flag
+      (requires initial makewhatis)
+    + There may be more than one man page with the same name so you
+      include the section number to be specific. 
+*** Wild Cards and ~
+    + ? :: Match a single character
+    + * :: Match all
+    + ~ :: Means $HOME or your home directory
+    + For more wildcards see TLCL
+*** White Space and Special Chars
+    + Whenever a filename has whitespace or special characters they
+      have to be escaped with the \ character or put in single or
+      double quotes. 
+*** Pipes and redirection
+    + | :: Pipe, output becomes input
+    + > :: Output to file, destroying contents
+    + 2> :: Redirect to STDERR only
+    + 2>&1 :: Redirect to both STDOUT and STDERR
+    + >> :: Append output to file
+    + < :: File contents as input to command
+    + /dev/null :: The bit bucket, or black hole
+*** back-ticks
+    + ` :: back-tick
+    + back-ticks execute the contents of a string with the string as a
+      shell command and replace the string with command's output.
+*** GNU Screen
+    + screen -ls OR screen -wipe :: Show available screens
+    + screen -D -RR :: Attach here and now
+    + ^a c :: Create a new window with a shell and switch
+    + ^a # :: (0-9) Switch to screen #
+    + ^a esc :: Enter copy/scrollback
+    + ^a d :: Detach
+    + ^a n :: Next screen
+    + ^a p :: Previous screen
+*** TMUX Hotkeys
+    + tmux a :: Reattach
+    + prefix c :: Create new window
+    + prefix # :: Switch to screen
+    + prefix [ :: Scrollback buffer mode, esc esc to exit
+    + prefix d :: Detach
+    + prefix " :: Split screen horizontally
+    + prefix % :: Split screen vertically
+    + prefix arrowkey :: Move between panes
+    + prefix ^arrowkey :: Resize a pane
+    + prefix n :: Next screen
+    + prefix p :: Previous screen
+*** Escalating Privileges
+    + Only be root when you need to be
+    + su :: Run a command with a substitute user and group ID, -l flag
+            handy, -c to run a command, requires the root password.
+    + sudo :: Execute commands as root and more. Requires user password.
+*** File Related Commands
+    + cp source source destination
+    + mv source source destination
+    + touch filename
+    + mkdir dirname (-p very handy)
+    + rmdir dirname
+    + rm (-rf)
+    + ln -s existingfile newlink
 * Programming Languages
-** 17-1-20
+** 17-01-20
 *** DONE Read chapters 1 and 2
 ** 22-1-20
 *** Ternary operator
@@ -433,10 +603,10 @@
 **** Readability
      + Overall simplicity
        - Minimal feature multiplicity
-	 * count = count + 1
-	 * count += 1
-	 * count++
-	 * ++count
+      	 * count = count + 1
+      	 * count += 1
+      	 * count++
+      	 * ++count
        - Minimal operator overloading.
      + Orthogonality
        - Relatively small set of primitive constructs can be combined
@@ -445,7 +615,7 @@
        - Pass by reference and pass by value (arrays are different
          than primitives, and objects are different.)
        - Different languages can read expressions left to right or
-         vice versa. Keep in mind. 
+         vice versa. Keep in mind.
      + Data types
        - Adequate predefined data types.
      + Syntax
@@ -463,8 +633,7 @@
     + Advanced data structures :: Floating points, arrays, records
 **** Syntanx
        | A + 1 = > A
-     V | 4         5
-     S | 
+     V | 4 5 S |
 *** Pseudocodes
     + Minimal programming languages used to get around the painful
       process of programming in machine code.
@@ -496,7 +665,7 @@
     + Still used for AI
     + Common Lisp and Scheme are contemporary dialects of Lisp
     + ML, Haskell, and F# are also functional programming languages,
-      but use very different syntax. 
+      but use very different syntax.
 *** COBOL
     + First language for business and not engineering
     + Designed to be read like a natural language
@@ -513,10 +682,70 @@
     + First designed for teaching structured programming
     + Small, simple, nothing new
     + Largest impact was on teaching programming :: From mid 70's to
-      late 90's was the most widely used programming
-      language for teaching programming
+      late 90's was the most widely used programming language for teaching
+      programming
+** 31-01-20
+*** Web Programming
+    + w3schools is a great resource.
+**** JavaScript
+     + JavaScript is client side, it downloads to the client machine
+       and will work even without internet. 
+     + jQuery makes using JavaScript easy, it allows importing
+       pre-written scripts, similar to libraries in Java. 
+**** Web Servers
+     + Paid hosting services, remotely host your website on one of
+       their servers, give you access to a virtual server for control
+       over your site. 
+**** PHP
+     + Server side database language
+     + More secure than JavaScript since it runs on the server
+** 03-02-20 
+*** Chapter 3 :: Syntax and Semantics
+**** Syntax vs Semantics
+     + Syntax :: Forgetting a semicolon, curly braces, etc.The form or
+                 structure of the expressions, statements and program units.
+     + Semantics :: Breaking the logic/meaning of the language,
+                    e.g. reading an assignment from left to right or right to
+                    left can change the meaning of an expression. Order of
+                    operations errors, etc. The meaning of the expressions,
+                    statements, and program units.
+     + Syntax and semantics provide a language's definition. 
+**** Syntax Terminology
+     + Sentence :: string of characters over some alphabet
+     + Language :: set of sentences
+     + Lexeme :: lowest level syntactic unit of a language (e.g., *,
+                 sum, begin)
+     + Token :: category of lexemes
+**** Recognizers
+     + Reads inputs strings over the alphabet of the language and decides
+       whether the input strings belong to the language.
+     + Example :: Syntax analysis part of a compiler
+**** Context Free Grammars
+     + Language Generators, meant to describe the syntax of natural langauges
+     + Define a class of languages called context-free languages 
+**** Backus-Naur Form
+     + BNF is equivalent to context-free grammars
+**** BNF Fundamentals
+     + Abstractions :: used to represent classes of syntactic structures. They
+       act like syntactic variables (called nonterminal symbols or just terminals)
+     + Terminals are lexemes or tokens
+     + A rule has a left hand side which is a nonterminal, and a right hand
+       side, which is a string of terminals and/or nonterminals.
+     + Example :: <stmt> => <exp> = <factor>
+		  <exp> => A|B|C
+		  <factor> => <exp> + <exp>
+		  A = A + B *PASSES*
+		  A + B = C *FAILS*
+     + Nonterminals are often enclosed in angled brackets
+     + Grammar :: a finite non-empty set of rules
+     + Start symbol :: a special element of the nonterminals of a grammar.
+     + Abstraction (or nonterminal symbol) :: can have more than one RHS.
+     + Syntactic lists are described using recursion
+     + Example :: <ident_list> -> ident
+		                | ident, <ident_list>
+     + Derivation :: repeated application of rules, starting with start symbol
 * German
-** 20-1-20
+** 20-01-20
 *** DONE Look in to buying textbook for German class
 ** 22-1-20
 *** DONE Homework 4.1
@@ -525,6 +754,6 @@
     SCHEDULED: <2020-01-24 Fri 09:00>
 *** DONE Homework 4.2
     DEADLINE: <2020-01-27 Mon 23:59>
-** 29-1-20
-*** TODO Homework
+** 29-01-20
+*** DONE Homework
     DEADLINE: <2020-02-03 Mon 23:59>
