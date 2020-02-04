@@ -235,6 +235,65 @@ no need for employee services or personal information etc.
   - no need for two factor authentication
 
 
+UML requirements
+- Conceptual class diagrams
+- Use case
+- Activity
+Design
+- Detailed class diagram
+-- design pattern
+
+
+
+FRIDAY 31/01/2020
+
+
+
+TF multiple choice multiple choice on software engineering uml  and requirements types
+REVIEW SESSION IS GOING TO BE ON WEDNESDAY 2/12 AT 6:30 PM ROOM TBD!!!
+The extra credit will be very much like the exam.
+Extra credit is also due monday
+What you are turning in n the 19th is also what you'll be tested on
+Pick four of the 10 that are in the cases in the extra credit doc
+this will help us on the exam!!
+Put the number of requirement as related requirement
+
+Do not need to do trigger or alternative flow for use case descriptions
+see slides on requirements needed for descriptions etc.
+Given a hand out (sent to group text)
+
+Library card system
+- use case : provide library card
+- brief description/goal: provide library card to printer to be taken y patron
+- related requirements
+- req 1
+- preconditions: patron is in system, patron has not yet been issued a card, if a card is lost and needs to
+-- be replaced
+- successful end condition: Request for new card was granted
+- failed end condition: Request for new card was denied
+- Actors: patron and card printer
+- Basic flow of events:
+A) patron requests card
+B) system determines eligibility
+C) system provides card to patron
+    Extension/Exception flow:
+    B.1) system denies request
+    C.1) System doesn't provide card to patron
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
