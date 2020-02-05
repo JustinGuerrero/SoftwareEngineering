@@ -1,5 +1,3 @@
-* Todos
-** TODO Ask if system should be for all majors or just CS
 * Necessary
   + One course may have multiple offerings 1
   + A course offering may have multiple sections 2
