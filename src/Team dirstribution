@@ -1,0 +1,32 @@
+Cory
+-One course may have multiple offerings
+-Students may use the system to determine who is teaching a course offering
+-System should show all courses in major, e.g. CS, CSCI, ESOF
+-Strong, personalized sort functionality
+-Search bar
+
+Justin
+-A course offering may have multiple sections
+-Professors may use the system to receive the number of students in each section and course offering
+-System should be organized in a major/minor path style
+-System shall be strongly integrated with each student’s school records, for the sake of class options, minor track, etc.
+
+Cole
+-Students may use the system to add/drop for a certain amount of time after registration
+-System shall be standalone, no integration with existing systems
+-Option to view classes in list organized by major or by semester
+-Show how long class has been full and how long waitlist is
+
+Will
+-Students may use the system te determine required classes for their major/minor
+-System shall be integrated with registrar’s data entry system
+-System shall be MSU-Bozeman specific
+-Show list of student emails, with option to sort by course, section, etc
+
+Nathan
+-Students may use the system to determine where and when a course is scheduled
+-Should show all current semester classes 5
+ --Should have CRN, description, time, location, credits, instructor, sections, prereq/coreq,
+ --actual number of seats in room, numer of students currently enrolled.
+-Strong integration between registration, gradution track, and scheduling
+-Mobile verison
