@@ -525,6 +525,8 @@
     + /srv :: places for services to store data
     + /tmp :: place for programs that need temporary storage
 ** 04-02-20
+*** TODO Quiz on Thursday
+    DEADLINE: <2020-02-06 Thu 12:15>
 *** Unix Philosophy
     + Make programs do one thing only, and do it well.
 *** Man Page Review
@@ -587,6 +589,33 @@
     + rmdir dirname
     + rm (-rf)
     + ln -s existingfile newlink
+*** Archive Related Commands
+    + gzip filename
+    + gunzip filename
+    + xz filename
+    + xz -d filename.xz
+    + tar -cvzf 
+*** Network Related Commands
+    + wget :: Web Downloader
+    + links :: Text based browser
+    + scp :: Secure copy
+    + rsync :: Remote copy with ssh
+    + rdiff-backup :: remote copy with history
+    + ping :: send ICMP ECHO_REQUEST to network hosts
+    + traceroute :: Print the route packets take
+    + ssh :: Secure SHell
+*** Utility Commands
+    + grep :: Print lines matching a pattern
+    + less :: Screen reader
+    + more :: Less of a screen reader than less
+    + cut :: Remove sections from each line of files
+    + diff :: Find difference between two files
+    + split :: split a file in to pieces
+    + cat :: Concatenate files
+    + ldd :: Print shared library dependencies
+    + which :: Shows full path of commands
+    + locate :: Find files by name
+    + find :: Search for files in a directory
 * Programming Languages
 ** 17-01-20
 *** DONE Read chapters 1 and 2
@@ -744,6 +773,25 @@
      + Example :: <ident_list> -> ident
 		                | ident, <ident_list>
      + Derivation :: repeated application of rules, starting with start symbol
+** 05-02-20
+*** TODO Chapter 3 Homework
+    DEADLINE: <2020-02-10 Mon 09:00>
+*** BNF Continued
+    + A BNF grammar can be represented as a hierarchical tree.
+    + A grammar is ambiguous if and and only if it generates a
+      sequential form that has two or more distinct parse trees. 
+*** Extended BNF
+    + Optional parts are placed in brackets []
+    + Alternative parts of RHSs are plcaed inside parentheses and
+      separated via vertical bars.
+    + Repetitions (0 or more) are placed inside braces {}
+*** Static Semantics
+    + Nothing to do with meaning
+    + Context Free Grammars cannot describe all of the syntax of
+      programming languages.
+    + Categories of constructs that are trouble:
+      - Context-free, but cumbersome (e.g. types of operands in expressions)
+      - Non-context-free (e.g. variables must be declared before they are used.)
 * German
 ** 20-01-20
 *** DONE Look in to buying textbook for German class
