@@ -31,7 +31,7 @@
     Software must be:
     + adapted to fit new requirements
     + enhanced to implement new business requirements
-    + extened to make it interoperable with more modern systems or databases
+    + extended to make it inter-operable with more modern systems or databases
     + re-architected to make it viable within a network environment
 *** Software Engineering?
     + Design Practice
@@ -39,7 +39,7 @@
     + Top Down View
 **** Quality Software
      + Efficient
-     + Cost Effectiv
+     + Cost Effective
 **** Some Realities
      + Understand the problem /first/
      + Design is a pivotal activity
@@ -95,14 +95,14 @@
         something bad, and the consequence of exposure.
       + Risk matrix uses info about likelihood and consequence to
         determine actual risk.
-      + Many different types of risk matricies exist.
+      + Many different types of risk matrices exist.
       + They can have different definitions of low and high likelihood
         and consequence. Regardless, they all follow the same principles.
 ***** Understand the problem -> Plan a solution
 **** Hooker's Principles
      + The Reason it All Exists
      + Keep It Simple Stupid
-     + Maintain the vison
+     + Maintain the vision
 ** 22-1-20
 *** Intro
 **** Due dates have changed
@@ -137,7 +137,7 @@
       + Design
       + Have you seen similar problems before?
       + Has a similar problem been solved?
-      + Can subproblems be defined?
+      + Can sub-problems be defined?
       + Can you represent a solution in a manner that can actually be
         implemented?
 ***** Implementation
@@ -158,7 +158,7 @@
     + Think!
 *** Software Myths
     + Affect managers, customers, and practitioners.
-    + Often have elements of truth, which can make the easiliy
+    + Often have elements of truth, which can make the easily
       believable.
     + Lead to bad decisions.
     + *Therefore*, insist on reality as you navigate through software
@@ -168,10 +168,10 @@
 **** Requirements Engineering
      + Continue on Friday.
 ** 24-1-20
-*** TODO Requirements Assignment
+*** DONE Requirements Assignment
     DEADLINE: <2020-02-19 Wed 12:00>
 *** DONE Check class calendar
-*** TODO Test on 14-2-20
+*** DONE Test on 14-2-20
 *** Requirements Engineering
 **** Definition
      + Set of activities concerned with identifying and communicating
@@ -179,7 +179,7 @@
        will be used.
      + Acts as the bridge between the real world needs of users,
        customers, and others affected by a software system and the capabilities
-       and opprtunities afforded by software intensive technologies.
+       and opportunities afforded by software intensive technologies.
 **** Error Correction
      + Becomes exponentially more expensive as the life of the project
        continues. i.e., *figure out requirements early*.
@@ -215,9 +215,9 @@
      + Negotiate different approaches
 **** Requirements
 ***** Functional
-      + Required behaviour of system between inputs and outputs
+      + Required behavior of system between inputs and outputs
 ***** Non-functional
-      + Required behaviour of the users of the system rather than the
+      + Required behavior of the users of the system rather than the
         system itself.
 ***** Characteristics of good requirements
       + Unambiguous
@@ -230,10 +230,10 @@
       + Atomic
       + Necessary
       + Implementation-free (abstract)
-***** TODO Only functional requirements are required for assignment
+***** DONE Only functional requirements are required for assignment
 **** FQT
      + Formal Quality Testing, testing team, making sure software is
-       bulletproof. Or as bulletproof as possible. Bugtesting.
+       bulletproof. Or as bulletproof as possible. Bug testing.
 ** 27-1-20
 *** Group Project Meeting
 **** Interview Questions
@@ -259,7 +259,7 @@
       + Integrate with or replace current systems?
       	- Dislikes searching for CRNs
       	- Dislikes separated nature of current system.
-      	- Likes seeing mulitple sections.
+      	- Likes seeing multiple sections.
       	- System should be mostly standalone, should replace the
           disjointed nature of our current system, but also shouldn't prohibit
           the transfer of data between our system and current systems.
@@ -292,7 +292,7 @@
 **** The Waterfall Model
      + Has problems because it is completely linear, so going back
        often translates to starting over.
-     + Has the perks of being more bulletproof, is userful for
+     + Has the perks of being more bulletproof, is useful for
        software design with low tolerance for mistakes/compromise.
 **** Potential Project Requirements/Desires
      + Professor can get course emails.
@@ -308,7 +308,7 @@
      + Should be intended just for MSU Bozeman, but should plan for
        ease of extensibility to other MSU campuses, or even other universities
        entirely.
-     + Would be nice to have links to professor/faculty webpages in
+     + Would be nice to have links to professor/faculty web pages in
        order to have easy access to contact info and office hours.
      + All users should be able to log in with NetID and password in
        order to have access to their relevant information, e.g. class roster,
@@ -322,16 +322,16 @@
 *** Requirements Modeling
     + Information domain must be understood
     + Function that software performs must be defined
-    + Behaviour must be represented
-    + Model must describe behaviour in a hierarchical fashion
+    + Behavior must be represented
+    + Model must describe behavior in a hierarchical fashion
 *** What is UML?
     + Unified Modeling Language
     + Modeling a system independent of implementation
     + Graphical language for modeling software intensive systems
     + Standard way to cover conceptual ideas
 *** Use Case Diagrams
-    + Focuses on behaviour as seen from outside users
-**** TODO Read UML 2.0 textbook
+    + Focuses on behavior as seen from outside users
+**** DONE Read UML 2.0 textbook
 **** Use Case Diagram Elements
      + Actors :: Role played by external entity (human or otherwise),
                  can't influence or change design
@@ -351,7 +351,7 @@
        + Brief Description
        + Related Requirements
        + Preconditions
-       + Successful end conditon
+       + Successful end condition
        + Unsuccessful end condition
        + Actors
        + Trigger
@@ -359,7 +359,7 @@
        + Alternative flow, if applicable
        + Exception flow, if applicable
 ** 03-02-20
-*** TODO Read paragraph on page 30 of UML book, How many use cases should your model have?
+*** DONE Read paragraph on page 30 of UML book, How many use cases should your model have?
 *** Intro
     + Created a requirements spec for the library information system.
       - Put in examples folder on D2L
@@ -370,8 +370,8 @@
     + Why develop this way?
       - Enforces good design
       - Easier to change
-      - Inceases reuse
-      - Increases understandability because we model real world
+      - Increases reuse
+      - Increases understand-ability because we model real world
         entities. 
     + Data over function
     + Information hiding
@@ -385,12 +385,120 @@
 *** Class Diagrams
     + A concept can be represented by a single UML class, or a set of
       UML classes.
-*** Static vs Nonstatic
-    + Nonstatic attributes and operations :: All objects of the class
+*** Static vs Non-static
+    + Non-static attributes and operations :: All objects of the class
          get their own copy, limited to the life of the object
     + Static attributes and operations :: All objects of the class
          share a common copy, not limited to the life of any one
          object. 
+** 05-02-20
+*** Class Diagrams
+**** Different types of relationships exist
+     + Associations :: Structural relationships between objects
+     + Dependency :: Objects of one class work briefly with objects of another
+**** Creation Tips
+     + Understand the problem
+     + Choose good class names
+     + Concentrate on the what
+     + Start with a simple diagram
+     + Refine until you feel it is complete
+** 10-02-20
+*** Quick Talk on Use Case UML
+    + <<include>> :: Separate use case for reusable use case
+    + <<extends>> :: Relationship for when a use case happens
+                     *sometimes* and requires a lot of work.
+    + The system is not an actor, everything it does must be modeled,
+      it cannot spontaneously do things.
+    + If you can't change it with your design, it is probably an
+      actor. 
+    + Use Case :: Interaction between actor and system that produces a
+                  measurable outcome to the actor. 
+*** Test on Friday
+    + Taken from slides (listed on today's slideshow) and the UML book
+      (chapters 2, 3, 4, and 5)
+    + True/False
+    + Multiple Choice
+    + Short Answer
+    + Modeling (from chapters 2, 3, 4, and 5, and slides)
+    + Use Case (both diagram and description)
+    + Class diagram
+    + Activity Diagram
+*** DONE Read Book for Test Review
+    DEADLINE: <2020-02-14 Fri 12:00>
+** 12-02-20
+*** Layout of Test
+    + Taken from slides and UML book, chapters 2, 3, 4, & 5
+    + True/False
+    + Multiple Choice
+    + Short Answer
+    + Modeling (taken from chapters 2, 3, 4, & 5 and slides)
+    + Use case (both diagram and description - description headings
+      will be on screen.
+    + Class diagrams
+    + Activity diagrams
+*** Test Review
+    + Wear vs. Deterioration
+    + Legacy Software
+    + What software engineering is, be able to define
+    + Lines of code != time
+    + Framework activities
+    + Umbrella activities
+    + Software myths
+    + The waterfall model
+    + Requirements engineering
+    + Cost of late correction
+    + Requirements
+    + Characteristics of a good requirement
+    + Use case diagrams
+    + Association :: Line with no arrow
+    + Specialization/Generalization :: Line with hollow arrow
+    + Inclusion :: Reusable action
+    + Extension :: Optional path to be taken from the base case
+    + Use cases use action words to describe interaction between user
+      and system
+    + An object is an instance of a class
+    + Object oriented development
+      - Data over function
+      - Information hiding
+      - Encapsulation
+      - Inheritance
+      - Nouns -> Classes
+      - Adjectives -> Attributes
+      - Verbs -> Operations
+    + Know class diagram relationships
+    + Class multiplicity
+    + Activity Diagram :: Flow chart to represent the flow from one
+         activity to another.
+    + Activity can be described as the operation of the system.
+    + The flow can be sequential, branched, or concurrent
+    + Swim lanes
+    + 
+** 19-02-20
+*** Tips for Use Case Assignment
+    + Use case title is the same as bubble in diagram
+*** Software Design
+    + Iterative process in which requirements are translated in to a
+      blueprint for creating software.
+    + Sets the stage for implementation. 
+*** Process of Design
+    + Models describe details of data structure, system architecture,
+      interface and components.
+    + Design product reviewed for quality before moving on to next
+      phase of development.
+    + At the end of the design process a design model and a
+      specification document are produced.
+    + Software Architecture :: The fundamental organization of a
+         system embodied in its components, their relationships to
+         each other, and to the environment and the principles guiding
+         its design and evolution.
+    + System :: A collection of components organized to accomplish a
+                specific function or set of functions.
+**** Requirements Model to Design Model
+     + 
+** 24-02-20
+*** Factory Design Pattern
+    + Interface class :: Defines required methods
+    + Abstract class :: Extends required methods
 * Systems Administration
 ** 16-01-20
    + End users often are uncomfortable talking to a SysAdmin and often worry
@@ -458,7 +566,7 @@
     + RAID 5 :: N-1 (parity)
     + RAID 6 :: N-2 (redundant parity)
     + RAID 10 :: Combination of 0 and 1
-    + ZRAID :: ZFS filesystem based
+    + ZRAID :: ZFS file system based
 *** Partitioning Schemes
 **** MBR aka MSDOS style
      + <= 2TB
@@ -525,7 +633,7 @@
     + /srv :: places for services to store data
     + /tmp :: place for programs that need temporary storage
 ** 04-02-20
-*** TODO Quiz on Thursday
+*** DONE Quiz on Thursday
     DEADLINE: <2020-02-06 Thu 12:15>
 *** Unix Philosophy
     + Make programs do one thing only, and do it well.
@@ -616,6 +724,357 @@
     + which :: Shows full path of commands
     + locate :: Find files by name
     + find :: Search for files in a directory
+** 06-02-20
+*** Discretionary Access Control
+    + Primarily controlled by the filesystem
+    + Users have the ability to modify the permissions of the object
+      they own at their discretion
+    + chmod :: Change file access permissions
+    + chown :: Change file owner and group
+    + chgrp :: Change group ownership
+    + lsattr :: List file attributes
+    + chattr :: Change file attributes (immutable)
+**** Ownership
+     + user (whoami, w, id, /etc/password)
+     + group (id, /etc/group)
+*** Changing Permissions
+    + u :: The user who owns the file
+    + g :: users who are in the file owner's group
+    + o :: Other, neither u or g
+    + a :: All, everyone
+    + r :: read(4)
+    + w :: write(2)
+    + b prefix bit :: Block device
+    + c prefix bit :: Character device
+    + s bit :: Runs as owner UID, passwd for example
+    + t bit :: sTicky, /tmp, With the sticky bit set on a directory,
+               files in that directory may only be removed or edited
+               by root and their owner. Without the sticky bit anyone
+               allowed to write to a directory may edit/remove any
+               file within it. 
+**** Octal Representation
+     + A numeric mode from one to four digits comprised of the sums of
+       read (4), write (2), and execute (1).
+*** Mandatory Access Control
+    + SELinux :: Security Enhanced Linux (NSA)
+    + Access Control Lists :: Microsoft Windows
+    + POSIX Capabilities
+** 10-02-20
+*** DONE Homework 2
+** 11-02-20
+*** RPM
+    + RPM Package Manager
+    + License is included with package documentation.
+    + RPM does not automatically install dependencies, so it is not
+      used as frequently anymore. 
+*** YUM
+    + Yellowdog Updater Modified
+    + Smarter than RPM, written in Python 2, not as fast.
+*** YUM Configuration
+    + exclude :: can put package followed by wildcard in order to
+      prevent a package from being updated.
+** 13-02-20
+*** Package Continuation
+    + Enterprise distributions offer less software which gets older
+      over the support life cycle.
+    + It is always possible to compile software from source, but it is
+      preferred to use the package manager when possible as building
+      from source requires your own intervention to keep updated.
+    + Debian created dpkg which is low level, and apt which is the
+      higher level tool. Their packages end in .deb
+    + Some newer package managers are conary and nix.
+    + Distro agnostic packaging schemes: appImage, flatpak, and
+      snappy. These include all dependencies. 
+    + There are gui front ends for package managers, the most popular
+      one for .deb is Synaptic, for .rpm systems there is yumex. Many
+      distros just use the GNOME Software Tool.
+    + Flatpak can be used to get later versions of software on an
+      enterprise based system.
+*** Processes
+    + Full blown process :: created with fork system call
+    + Threads :: Lighter weight than full blown process since it
+                 shares resources with its parent. Threads are created
+                 with the clone system call and the use of a threading
+                 library.
+*** INIT
+    + When the system boots the kernel creates several kernel threads
+      for housekeeping activities. Then it starts the init process
+      which has a process ID number (PID) 1.
+    + init is a special process responsible for exectuing the startup
+      scripts
+    + All processes other than the kernel and its threads are children
+      of init.
+    + init serves another role as being a fallback parent for any
+      given process.
+*** PID
+    + The kernel assigns a unique PID for all processes. Most commands
+      and system calls that manipulate processes require a specified
+      target PID.
+    + PIDs are issued sequentially. 
+*** Priority and Niceness
+    + The priority of a process tells the kernel process scheduler
+      about how the process should be treated with regards to CPU
+      usage. The common range is -20 (most favorable) to 19 (least
+      favorable). A child inherits the priority of its parent.
+    + The nice command is used to start a program at a specified
+      niceness. The renice command is used to reassign niceness.
+    + A user cannot lower niceness but can only increase it with
+      values 0-20. Root can do anything.
+    + Modern CPUs and schedulers have made this less important. 
+*** Process Status
+    + D :: Uninterruptible sleep
+    + R :: Running of runnable
+    + S :: Interruptible sleep
+    + T :: Stopped
+    + W :: Paging (not valid since 2.6.xx kernel)
+    + X :: Dead
+    + Z :: Defunct "zombie" process, terminated but not reaped
+*** Commands
+    + ps : auxwww
+    + pstree : -nup
+    + kill : -15 is default, -9 is handy
+    + top : M, P, u
+    + top is interactive
+    + sysstat monitors load every 10 minutes
+    + strace watches a program's service calls. 
+*** Resource usage config
+    + /etc/security/limits.conf
+    + limits what users can do reagarding processes and resources.
+*** Disk management
+    + Bad things happen when a disk or partition gets full.
+    + df :: -h and -i are the most common flags
+    + du :: -s and -h are the most common flags
+** 18-02-20
+*** CGroups and Systemd
+    + Linux has a resource management facility called cgroups. They
+      are somewhat hard to use so they were not used all that frequently.
+    + Fedora is a cutting edge distro. About 9 years ago Fedora 15
+      released with systemd.
+    + Systemd uses cgroups for process control and by defeault all
+      services are started in their own cgroup as are user processes.
+    + Traditionally each process is treated equally, so each gets an
+      equal amount of CPU time.
+    + A cgroup allows realted processes to be grouped/scheduled
+      together making it harder for any process and its children to
+      bog the system down.
+    + It also has the added benefit of being more easily and reliably
+      killed than individual processes.
+    + killall command allows all of a user's processes to be killed at once.
+*** Before Systemd
+**** Sysvinit
+     + Came from AT&T's UNIX and was a series of directories and shell
+       scripts that used naming conventions.
+     + Services were controlled with long shell scripts that varied
+       between distros.
+     + Services were bundled into "runlevels" which varied in
+       functions between distros.
+     + Scripts stored in /etc/rc.d/init.d/
+     + Used for a long time, but lacked in features.
+     + Ignored many useful kernel features for the sake of compatibility.
+**** Upstart
+     + A new init system created by a Canonical employee on his own
+       time. Got stuck in trying to emulate Sysvinit.
+*** Systemd
+    + Decided to abandon compatibility and take advantages of several
+      advanced, Linux only kernel features.
+    + It would redefine service dependencies and be able to start
+      services in parallel.
+    + As it matured it took over most if not all of the execution of
+      paths and became a full service manager incorporating Linux only
+      isolation and resource management.
+    + Systemd is an enabler for cgroups. As a result resource control
+      through Systemd is much easier than before.
+    + systemctl provides a lot more info and functionality than
+      Sysvinit tools.
+    + Abandoned SysVinits shell based scripts and instead uses
+      smaller, declarative config files named "unit files". There are
+      several types:
+      - .target :: runlevels
+      - .service :: service control
+      - .socket :: on-demand tasks
+      - .timer :: scheduled tasks
+      - Also: .device, .mount, .automount, .swap, .path, .snapshot,
+        .slice, and .scope
+    + systemd decided to go beyond an init system and expanded into a
+      "Core OS" in that it tries to make common tasks the same across
+      multiple platforms. Distros often did common tasks like cron,
+      logging, hostname, etc. differently. Many feel that this aspect
+      of systemd is in violation of the UNIX philosophy.
+    + systemd also works in conjunction with dbus for interprocess
+      communication and event-driven actions.
+*** Journald and Journalctl
+    + systemd decided to take over logging; having logging integrated
+      into the init system allows for better logging integration with
+      the kernel. It can log all kernel messages from a full startup
+      and shutdown.
+    + It also uses a single binary log file with database like
+      functionality, although it is still possible to do a more old
+      fashioned style of one log file per service. 
+*** systemctl
+    + systemctl --full
+    + systemctl enable {servicename}
+    + systemctl disable {servicename}
+    + systemctl status {servicename}
+    + systemctl start {servicename}
+    + systemctl mask {servicename} (symlinks to /dev/null)
+    + systemctl get-default (shows default target aka runlevel)
+      default runlevel is multiuser.target
+    + systemctl set-default {targetname} (changes default target)
+    + systemctl isolate {targetname} (change target aka runlevel)
+** 20-02-20
+*** Backups
+**** Backup Ecosystems
+     + BackupPC
+     + Backula
+     + Zmanda (commercial version is Amanda)
+**** tar
+     + The GNU version of the tar archiving utility.
+     + tar -cvzf /path/filename.tar.gz /path/to/backup
+     + tar -cvJf /path/filename.tar.xz /path/to/backup
+     + c :: create
+     + v :: verbose
+     + J :: xz compression
+     + z :: gzip compression
+       + f :: file
+**** scp
+     + Secure copy (remote file copy program), overwrites destination files
+     + scp file1 file2 dir1/ dir2/ user@remotehost:/path/to/directory/
+     + Common flags
+       - l :: limit rate specified in Kbits/s
+       - P :: port
+       - p :: preserves modifications, times, and modes
+       - r :: recursively copy
+**** rsync
+     + Common flags
+       - a :: archive mode
+       - v :: verbose
+       - S :: sparse, handles sparse files efficiently
+       - delete :: delete extraneous files from dest. dirs
+       - exclude=PATTERN :: exlude files matching with PATTERN
+       - bwlimit=KBPS :: limit I/O bandwidth, KBytes per second
+     + rsync backup example:
+       rsync -avS --progress --delete --exclude=/dev --exclude=/proc \
+       --exclude=/mnt --exclude=/sys --exclude=/media --exclude=/tmp \
+       root@sourcehost:/ /backups/hostname
+**** rdiff-backup
+     + The only backup utility that offers history.
+     + A local/remote mirror and incremental backup utility written
+       in python. Stores diffs for changes in files. List and restore
+       versions of files.
+     + Tries to combine the best features of mirroring with incremental
+       backup. Also works over network with ssh.
+     + example:
+       rdiff-backup -v5 --print-statistics root@esus::/www \
+       /backups-servers/esus/www
+**** Imaging Software
+     + Bit-by-bit copy rather than file based
+     + Disk-image based backup utilities are really good for cloning
+       systems. The main disadvantage of using disk imaging software is
+       that they usually can only backup a partition/disk if it is not
+       in use.
+     + Often disk image-backup software is run by booting from an
+       alternative partition or live media.
+     + clonezilla
+     + dd and ddrescue
+     + Some missing features in the free programs:
+       - Can't easily mount the image file(s) and alther them
+       - Can't easily clone a larger to a smaller
+     + There are a number of commercial/proprietary products and they
+       include Ghost, Acronis True Image, etc.
+*** Network Configuration
+    + Please do not attempt to alter the network configuration within
+      your student KVM VM.
+    + To see which network card you have: lspci | grep -i net
+**** Network Config Tools
+     + NetworkManager
+       - nmcli
+       - nmtui
+       - graphical tools are also available
+     + Lower Level Tools
+       - ip
+       - ifconfig (don't store the settings after reboot)
+     + How to set the hostname
+       - hostnamectl set-hostname {hostname} (what package provides it?)
+**** /etc/hosts
+     + Please note that /etc/hosts is a special file in that it can be
+       used as a sort of local DNS.
+     + /etc/hosts is usually consulted before the specified
+       nameservers.
+**** DNS Configuration
+     + DNS config is stored in /etc/resolv.conf
+** 25-02-20
+*** DNS Related Commands
+**** /usr/bin/bind-utils
+    + host www.cs.montana.edu
+    + host 153.90.127.197
+    + dig MX cs.montana.edu (Mail eXchange record)
+    + dig NS cs.montana.edu (NameServer record)
+    + nslookup www.cs.montana.edu
+    + nslookup can also used interactively
+**** /usr/bin/whois
+     + whois montanalinux.org
+*** Desktop Based Linux
+**** X11
+     + The X window system started in 1984 and X11 was released
+       in 1987.
+     + In 1988 the MIT X Consortium was created to maintain X as a non
+       profit group.
+     + In 1999 the Open Group formed X.Org
+     + The most propular release was XFree86 which was widely
+       adopted.
+     + In 2004 X.Org was created as a fork of XFree86. 
+**** Window Managers
+     + twm :: One of the first window managers that became popular.
+     + fvwm :: Robert Nation created the F Virtual Window Manager in
+               1993, and was one of the first to feature virtual desktops.
+     + Window Maker :: In 1997 Window Maker was released as a clone of
+                       NeXTstep. NeXTstep was used a basis for the Mac
+                       OS X GUI.
+     + blackbox :: Very lightweight desktop manager written in C++
+**** Desktop Environment
+     + CDE :: The Common Desktop Environment was created by a number
+              of commercial UNIX vendors in 1993 and became the de
+              facto GUI environment for a number of UNIX flavors. Sun
+              Microsystems was a holdout and created their own named
+              OpenLook based on a completely different GUI toolkit.
+     + KDE :: The K Desktop Environment was started in 1996 by
+              Matthias Ettrich. He surveyed all of the freely
+              available GUI toolkits and settled on QT from a company
+              in Norway named Trolltech. QT originally cost money but
+              after the GNOME project was started and Trolltech
+              started the QT project and released QT under a free
+              software friendly license.
+     + GNOME :: The GNU Object Model Environment desktop was
+                originally started by a group of programmers
+                (sponsored by Red Hat) who were not happy with the
+                original QT license. They also wanted to use C instead
+                of C++. GNOME is based on the GIMP toolkit
+                (GTK). GNOME decided to do a complete re-write with
+                the GNOME 3 shell. When GNOME 3 came out GNOME 2.X was
+                abandoned. GNOME 2.X was forked and turned into MATE.
+     + GNOME 3 Shell :: GNOME 3 was released in 2011. Fedora was one
+                        of the first distros to ship with
+                        GNOME 3. GNOME 3 requires hardware support and
+                        is primarily search based. It removed many
+                        features from GNOME 2.
+     + UNITY :: Ubuntu claimed that they couldn't work well enough
+                with the GNOME 3 development team so they decided to
+               drop GNOME 3 and developed their own interface called
+                Unity. In 2017 Canonical announced they were dropping
+                Unity and going back to GNOME 3. 18.04 is the first
+                LTS release with GNOME 3.
+     + Cinnamon :: A fairly new project from Linux Mint that uses the
+                   GNOME 3 libraries to create a stylistic blend of
+                   GNOME 2 and GNOME 3.
+     + XFCE :: Olivier Fourdan decided to create a free clone of CDE
+               in 1996 based on GTK 2.
+     + LXDE :: Started in 2006 based on GTK 2. LXQT is a fork based on QT.
+**** The Future?
+     + One complaint about X11 is that it has too many layers and that
+       created efficient software is hard.
+     + Wayland is a fairly new project with a goal of providing an
+       efficient alternative to X11. Fedora uses Wayland, KDE is
+       working to make Wayland work with Plasma.
 * Programming Languages
 ** 17-01-20
 *** DONE Read chapters 1 and 2
@@ -774,7 +1233,7 @@
 		                | ident, <ident_list>
      + Derivation :: repeated application of rules, starting with start symbol
 ** 05-02-20
-*** TODO Chapter 3 Homework
+*** DONE Chapter 3 Homework
     DEADLINE: <2020-02-10 Mon 09:00>
 *** BNF Continued
     + A BNF grammar can be represented as a hierarchical tree.
@@ -782,7 +1241,7 @@
       sequential form that has two or more distinct parse trees. 
 *** Extended BNF
     + Optional parts are placed in brackets []
-    + Alternative parts of RHSs are plcaed inside parentheses and
+    + Alternative parts of RHSs are placed inside parentheses and
       separated via vertical bars.
     + Repetitions (0 or more) are placed inside braces {}
 *** Static Semantics
@@ -792,6 +1251,204 @@
     + Categories of constructs that are trouble:
       - Context-free, but cumbersome (e.g. types of operands in expressions)
       - Non-context-free (e.g. variables must be declared before they are used.)
+** 07-02-20
+*** Lisp Intro
+    + Everything in Lisp is a function, a list, or an atom.
+    + For example, '+' is a function that takes two or more numeric
+      parameters.
+*** DONE Lisp Assignment
+    DEADLINE: <2020-02-22 Sat 00:00>
+** 10-02-20
+*** Benefits of using BNF 
+    + BNF provides a clear and concise syntax description
+    + The parser can be base directly on BNF
+    + Parsers based on BNF are easy to maintain
+*** Lexical Analysis
+    + A lexical analyzer is a pattern matcher for character strings
+    + A lexical analyzer is a frontend for the parser
+    + It identifies substrings of the source program that belong
+      together
+      - Lexemes match a character pattern, which is associated with a
+        lexical category called a token.
+      - *sum* is a lexeme, its token may be *IDENT*
+    + Lexical analyzer is usually a function called by the parser when
+      it needs the next token.
+*** State Diagram Design
+    + A naive state diagram would have a transition from every state
+      on every character in the source language - such a diagram would
+      be very large.
+    + In many cases, transitions can be combined to simplify the state
+      diagram
+      - When recognizing an identifier, all uppercase and lowercase
+        letters are equivalent, use a character class that contains
+        all letters. 
+      - When recognizing an integer literal, all digits are the same,
+        use a digit class. 
+** 12-02-20
+*** BNF
+    + Each nonterminal can be a function in implementation. 
+** 14-02-20
+*** C#
+    + Java created from C++
+    + Java built for embedded systems, microprocessors were to have
+      the JVM on them.
+    + Didn't work because the microprocessors were simply not fast
+      enough.
+    + Java became platform independent, could run in browser, Mac,
+      Linux, or Microsoft.
+    + Microsoft paranoid because users are not required to use Windows
+      anymore. They invented C# as a direct copy of Java in order to
+      keep it platform dependent upon Windows.
+    + C# features the ternary operator much like Java.
+    + C# also features generics
+    + C# has interfaces that can be implemented. The comparison
+      interface is IComparable.
+    + Delegates are a way to let one variable call multiple
+      functions. 
+** 19-02-20
+*** Special Characters
+    + In PHP all variables begin with a dollar sign
+    + In Perl all variables begin with special characters that specify
+      the variables type.
+*** Variables
+    + A variable is an abstraction of a memory cell.
+    + Variables can be characterized as a sextuple of attributes
+      - Name
+      - Address
+      - Value
+      - Type
+      - Lifetime
+      - Scope
+*** Binding
+    + Binding :: Association between the variable and its type or
+                 value or between an operation and a symbol.
+    + Binding Time :: The time at which binding takes place.
+    + Possible Binding Times
+      - Language design time :: Bind operator symbols to operators
+      - Language implementation time :: Bind floating point type to representation
+      - Compile time :: Bind a variable to a type in C or Java
+      - Load time :: Bind a C or C++ static variable to a memory cell
+      - Runtime :: Bind a nonstatic loacl variable to a memory cell
+**** Static and Dynamic Binding
+     + A binding is static if it first occurs before runtime and
+       remains unchanged.
+     + A binding is dynamic if it first occurs at runtime or changes
+       during runtime.
+     + Advantages :: Flexibility
+     + Disadvantages :: Speed, reliability
+**** Explicit/Implicit Declaration
+     + Some languages use type inferencing to determine types of
+       variables: C# (kind of), Python, Haskell, etc.
+*** Scope
+    + Static Scope :: 
+** 21-02-20
+*** TODO Golang: A Programming Language by Google
+    DEADLINE: <2020-03-06 Fri 22:00>
+*** History of Go
+    + Desgined by Google in 2007
+    + Improve programming productivity in era of multicore, networked machines.
+    + Designed out of a dislike of C/C++
+*** Design
+    + Optional concise variable declaration and initialization through
+      type inference
+      - x := 0 *not* int x = 0; or var x = 0;
+    + Fast compilation times
+    + Remote package management (go get) and online package
+      documentation. 
+*** Syntax Changes From C
+    + Combined declaration and/initialization operator was introduced
+      that allows the programmer to write i := 3 or s := "Hello World"
+      without specifying the type of variables.
+    + Semicolons are optional, only needed if you have more than one
+      statement per line.
+    + Functions may return multiple values.
+*** Types in Go
+    + byte, int64, float32, etc.
+    + Pointers and the pointer to type T is *T
+    + Address taking and indirection use & and * like C
+    + No pointer arithmetic
+*** Other Facts
+    + No: inheritance, generic programming, assertions, pointer
+      arithmetic, implicit type conversion, untagged unions, and
+      tagged unions
+    + Concurrency: There are no restrictions on how Go routines
+      access shared data, making race conditions possible.
+    + Semaphore :: Flag that protects a region of code so that multiple
+                  threads can't manipulate it at the same time. 
+*** Concurrency
+    + Go is known for its threads.
+    + The "chan" or channel feature is very useful for transferring
+      data between separate threads.
+*** Reference Material
+    + gobyexample.com
+    + To run from terminal: go run MyFile.go
+** 26-2-20
+*** TODO Quiz on Friday
+    SCHEDULED: <2020-02-28 Fri 08:00>
+*** Quiz
+    + Allowed one piece of paper, 8.5x11, both sides, no font limit. 
+**** Topics and chapters on exam
+***** Chapter 1
+      + Language design tradeoff
+      + Langugage evolution criteria
+***** Chapter 2
+      + Zuse's Plankalkul
+      + Why did speedcoding come around
+      + Fortran (no coding, just from chapter)
+      + Lisp (no coding, just from chapter)
+      + Compiled vs Interpereted languages
+      + Why was the slowness of interpretations of programs acceptable
+        in the early 1950s?
+***** Chapter 3
+      + Lexemes
+      + Tokens
+      + Recognizers vs/and Generators
+      + BNF
+      + CFG (Context Free Grammars)
+      + LHS and RHS
+      + Recursive Rules
+      + Parse Trees
+      + Ambiguity
+      + EBNF
+      + The homework will be important
+***** Chapter 4
+      + Lexical Analysis
+      + Top Down Parsers
+      + Bottom Down Parsers
+      + Recursive Descent Parsers
+      + Code in 4.4.1
+      + Output and parse trees in the same sections
+      + 
+***** Chapter 5
+      + Names
+	- Special Words
+	- Reserved Words
+      + Variables
+	- sextuples
+      + Binding
+	- Static
+	  + Implicit
+	  + Explicit
+        - Dynamic
+      + Scope
+	- Static
+	- Dynamic
+	- Global
+	- Lifetime
+	- Differences and evaluation of each
+***** Languages
+      + Nothing directly on Fortran, Lisp, Web Programming, and GO,
+        but you should know about each.
+**** Review Material
+     + Step through static vs dynamic variable program.
+     + Drawing a stack of the function calls can be helpful for
+       dynamic variables.
+     + Know whether Java and Python are static or dynamic.
+     + Know how to show that a grammar is ambiguous, i.e. be able to
+       draw two different trees from the same grammar, same output but
+       two different ways to get there.
+     + If a grammar has no start symbol just start at the top line.
+     + Static vs Dynamic scoping.
 * German
 ** 20-01-20
 *** DONE Look in to buying textbook for German class
@@ -805,3 +1462,6 @@
 ** 29-01-20
 *** DONE Homework
     DEADLINE: <2020-02-03 Mon 23:59>
+** 10-02-20
+*** DONE German Tinder Profile
+    DEADLINE: <2020-02-14 Fri 09:00>
